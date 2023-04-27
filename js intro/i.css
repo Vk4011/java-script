@@ -1,0 +1,20 @@
+body{
+background-color: aqua;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:  5px solid rgb(11, 11, 11);
+
+}
