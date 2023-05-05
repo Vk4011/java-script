@@ -1,0 +1,43 @@
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.heading {
+    color: blue;
+    font-family: "Caveat";
+    font-size: 40px;
+    text-decoration: underline;
+  }
+
+
+.myContainer{
+    display: grid;
+    place-items: center;
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    border-top-left-radius: 20px;
+
+  }
+
+  .btn{
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right:  10px;
+    border-radius: 20px; 
+
+  }
+  /* classList.add, classList.remove("btn") is used
