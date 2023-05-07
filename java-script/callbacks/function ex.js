@@ -5,6 +5,8 @@
 // this is Callback  Function
 /**A Callback is a function that is passed as an argument to another function. */
 
+//one function as passing another function argument
+
 
 function displayGreeting(displayName){
     console.log("Hello");
