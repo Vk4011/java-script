@@ -75,11 +75,20 @@ setInterval(function(){
 
 
 
-Cancelling Schedulers 
-clearTimeout()
-we can cancel the setTimeout()
-before it executes the callback function
-using clear Timeout.
+// Cancelling Schedulers 
+// clearTimeout()
+// we can cancel the setTimeout()
+// before it executes the callback function
+// using clear Timeout.
 
-To execute clearTimeout(), we need to Pass 
-the uniqueld returned by setTimeout().
+// To execute clearTimeout(), we need to Pass 
+// the uniqueld returned by setTimeout().
+
+
+// Syntax 
+// setTimeout()
+
+// let uniqueId = setTimeout (function,delay);
+// uniqueId - a variable to save the id returned by setTimeout()
+
+// function - A Callback function to be called after the specified TimeRanges.apply
