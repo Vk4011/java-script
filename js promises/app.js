@@ -3,14 +3,14 @@
 alert("first Line");
 alert("second line");
 alert("third line");
-
-const url = "https://opis.ccbp.in/jokes/random";
+let apiData ;
+const url = "https://jsonplaceholder.typicoe.com/user";
 fetch(url).then((response)=>{
-        return response.json();
+         apiData=response.json();
+         console.log(apiData);
     })
-    .then((jsonData)=>{
-        console.log(jsonData);
-
+    .catch((error)=>{
+        console.log(error)
     });
 
 
