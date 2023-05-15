@@ -1,0 +1,14 @@
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
