@@ -29,6 +29,7 @@ button{
     font-size: 20px;
     color:  rgb(35, 201, 30);
     font-weight: 900;
+    margin: 5px;
     position: relative;
     top: 200px;
     right: 130px;
@@ -46,7 +47,7 @@ button{
     background-image: linear-gradient(45deg,rgb(8, 61, 54),rgb(53, 48, 113),rgb(3, 23, 20));
     position: relative;
     bottom: 200px;
-    left: 55px;
+    left: 117px;
     height: 100px;
     padding-right: 30px;
     padding-left: 30px;
