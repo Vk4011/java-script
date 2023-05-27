@@ -22,7 +22,10 @@ b.addEventListener("click",()=>{
     b.textContent = "Wait..!";
     btnE.style.color="black" ;
 
-    fetch('data1.txt').then((response)=>{
+    fetch('API1.txt').then((response)=>{
+        // if(!response.ok){
+        //     throw Error(response.statusText)
+        // }
         console.log(response);
         return response.text()
     }).then((data)=>{
@@ -30,3 +33,19 @@ b.addEventListener("click",()=>{
     }).catch((error)=>{console.log(error)})
 })
 
+
+
+btnE.addEventListener("click",fun)
+
+function fun(){
+    fetch('API.txt').then((res)=>{
+        if(!res.ok){
+        throw Error(res.statusText) 
+        }
+        console.log(res);
+        return res.text()
+    }).then((data)=>{
+        console.log(data)
+        document.getElementById("divdata").innerText=data
+    })
+}
